@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		34B3E76C204232A30040427D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B3E76B204232A30040427D /* AppDelegate.swift */; };
+		34B3E76E204232A30040427D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B3E76D204232A30040427D /* ViewController.swift */; };
+		34B3E771204232A30040427D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34B3E76F204232A30040427D /* Main.storyboard */; };
+		34B3E773204232A30040427D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34B3E772204232A30040427D /* Assets.xcassets */; };
+		34B3E776204232A30040427D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34B3E774204232A30040427D /* LaunchScreen.storyboard */; };
+		34B3E781204232A30040427D /* Full_Screen_Camera_View_FinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B3E780204232A30040427D /* Full_Screen_Camera_View_FinderTests.swift */; };
+		34B3E78C204232A30040427D /* Full_Screen_Camera_View_FinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34B3E78B204232A30040427D /* Full_Screen_Camera_View_FinderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		34B3E77D204232A30040427D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34B3E760204232A20040427D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34B3E767204232A20040427D;
+			remoteInfo = "Full Screen Camera View Finder";
+		};
+		34B3E788204232A30040427D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 34B3E760204232A20040427D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 34B3E767204232A20040427D;
+			remoteInfo = "Full Screen Camera View Finder";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		34B3E768204232A30040427D /* Full Screen Camera View Finder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Full Screen Camera View Finder.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B3E76B204232A30040427D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		34B3E76D204232A30040427D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		34B3E770204232A30040427D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		34B3E772204232A30040427D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		34B3E775204232A30040427D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		34B3E777204232A30040427D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34B3E77C204232A30040427D /* Full Screen Camera View FinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Full Screen Camera View FinderTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B3E780204232A30040427D /* Full_Screen_Camera_View_FinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Full_Screen_Camera_View_FinderTests.swift; sourceTree = "<group>"; };
+		34B3E782204232A30040427D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34B3E787204232A30040427D /* Full Screen Camera View FinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Full Screen Camera View FinderUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B3E78B204232A30040427D /* Full_Screen_Camera_View_FinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Full_Screen_Camera_View_FinderUITests.swift; sourceTree = "<group>"; };
+		34B3E78D204232A30040427D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		34B3E765204232A20040427D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B3E779204232A30040427D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B3E784204232A30040427D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		34B3E75F204232A20040427D = {
+			isa = PBXGroup;
+			children = (
+				34B3E76A204232A30040427D /* Full Screen Camera View Finder */,
+				34B3E77F204232A30040427D /* Full Screen Camera View FinderTests */,
+				34B3E78A204232A30040427D /* Full Screen Camera View FinderUITests */,
+				34B3E769204232A30040427D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		34B3E769204232A30040427D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34B3E768204232A30040427D /* Full Screen Camera View Finder.app */,
+				34B3E77C204232A30040427D /* Full Screen Camera View FinderTests.xctest */,
+				34B3E787204232A30040427D /* Full Screen Camera View FinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34B3E76A204232A30040427D /* Full Screen Camera View Finder */ = {
+			isa = PBXGroup;
+			children = (
+				34B3E76B204232A30040427D /* AppDelegate.swift */,
+				34B3E76D204232A30040427D /* ViewController.swift */,
+				34B3E76F204232A30040427D /* Main.storyboard */,
+				34B3E772204232A30040427D /* Assets.xcassets */,
+				34B3E774204232A30040427D /* LaunchScreen.storyboard */,
+				34B3E777204232A30040427D /* Info.plist */,
+			);
+			path = "Full Screen Camera View Finder";
+			sourceTree = "<group>";
+		};
+		34B3E77F204232A30040427D /* Full Screen Camera View FinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				34B3E780204232A30040427D /* Full_Screen_Camera_View_FinderTests.swift */,
+				34B3E782204232A30040427D /* Info.plist */,
+			);
+			path = "Full Screen Camera View FinderTests";
+			sourceTree = "<group>";
+		};
+		34B3E78A204232A30040427D /* Full Screen Camera View FinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				34B3E78B204232A30040427D /* Full_Screen_Camera_View_FinderUITests.swift */,
+				34B3E78D204232A30040427D /* Info.plist */,
+			);
+			path = "Full Screen Camera View FinderUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		34B3E767204232A20040427D /* Full Screen Camera View Finder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34B3E790204232A30040427D /* Build configuration list for PBXNativeTarget "Full Screen Camera View Finder" */;
+			buildPhases = (
+				34B3E764204232A20040427D /* Sources */,
+				34B3E765204232A20040427D /* Frameworks */,
+				34B3E766204232A20040427D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Full Screen Camera View Finder";
+			productName = "Full Screen Camera View Finder";
+			productReference = 34B3E768204232A30040427D /* Full Screen Camera View Finder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		34B3E77B204232A30040427D /* Full Screen Camera View FinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34B3E793204232A30040427D /* Build configuration list for PBXNativeTarget "Full Screen Camera View FinderTests" */;
+			buildPhases = (
+				34B3E778204232A30040427D /* Sources */,
+				34B3E779204232A30040427D /* Frameworks */,
+				34B3E77A204232A30040427D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34B3E77E204232A30040427D /* PBXTargetDependency */,
+			);
+			name = "Full Screen Camera View FinderTests";
+			productName = "Full Screen Camera View FinderTests";
+			productReference = 34B3E77C204232A30040427D /* Full Screen Camera View FinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		34B3E786204232A30040427D /* Full Screen Camera View FinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 34B3E796204232A30040427D /* Build configuration list for PBXNativeTarget "Full Screen Camera View FinderUITests" */;
+			buildPhases = (
+				34B3E783204232A30040427D /* Sources */,
+				34B3E784204232A30040427D /* Frameworks */,
+				34B3E785204232A30040427D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				34B3E789204232A30040427D /* PBXTargetDependency */,
+			);
+			name = "Full Screen Camera View FinderUITests";
+			productName = "Full Screen Camera View FinderUITests";
+			productReference = 34B3E787204232A30040427D /* Full Screen Camera View FinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		34B3E760204232A20040427D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Matthew Rempel";
+				TargetAttributes = {
+					34B3E767204232A20040427D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					34B3E77B204232A30040427D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34B3E767204232A20040427D;
+					};
+					34B3E786204232A30040427D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 34B3E767204232A20040427D;
+					};
+				};
+			};
+			buildConfigurationList = 34B3E763204232A20040427D /* Build configuration list for PBXProject "Full Screen Camera View Finder" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 34B3E75F204232A20040427D;
+			productRefGroup = 34B3E769204232A30040427D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				34B3E767204232A20040427D /* Full Screen Camera View Finder */,
+				34B3E77B204232A30040427D /* Full Screen Camera View FinderTests */,
+				34B3E786204232A30040427D /* Full Screen Camera View FinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		34B3E766204232A20040427D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B3E776204232A30040427D /* LaunchScreen.storyboard in Resources */,
+				34B3E773204232A30040427D /* Assets.xcassets in Resources */,
+				34B3E771204232A30040427D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B3E77A204232A30040427D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B3E785204232A30040427D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		34B3E764204232A20040427D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B3E76E204232A30040427D /* ViewController.swift in Sources */,
+				34B3E76C204232A30040427D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B3E778204232A30040427D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B3E781204232A30040427D /* Full_Screen_Camera_View_FinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		34B3E783204232A30040427D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34B3E78C204232A30040427D /* Full_Screen_Camera_View_FinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		34B3E77E204232A30040427D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34B3E767204232A20040427D /* Full Screen Camera View Finder */;
+			targetProxy = 34B3E77D204232A30040427D /* PBXContainerItemProxy */;
+		};
+		34B3E789204232A30040427D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 34B3E767204232A20040427D /* Full Screen Camera View Finder */;
+			targetProxy = 34B3E788204232A30040427D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		34B3E76F204232A30040427D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34B3E770204232A30040427D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		34B3E774204232A30040427D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				34B3E775204232A30040427D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		34B3E78E204232A30040427D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		34B3E78F204232A30040427D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		34B3E791204232A30040427D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X39L322ZSL;
+				INFOPLIST_FILE = "Full Screen Camera View Finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattrempel.Full-Screen-Camera-View-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		34B3E792204232A30040427D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X39L322ZSL;
+				INFOPLIST_FILE = "Full Screen Camera View Finder/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattrempel.Full-Screen-Camera-View-Finder";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		34B3E794204232A30040427D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X39L322ZSL;
+				INFOPLIST_FILE = "Full Screen Camera View FinderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattrempel.Full-Screen-Camera-View-FinderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Full Screen Camera View Finder.app/Full Screen Camera View Finder";
+			};
+			name = Debug;
+		};
+		34B3E795204232A30040427D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X39L322ZSL;
+				INFOPLIST_FILE = "Full Screen Camera View FinderTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattrempel.Full-Screen-Camera-View-FinderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Full Screen Camera View Finder.app/Full Screen Camera View Finder";
+			};
+			name = Release;
+		};
+		34B3E797204232A30040427D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X39L322ZSL;
+				INFOPLIST_FILE = "Full Screen Camera View FinderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattrempel.Full-Screen-Camera-View-FinderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Full Screen Camera View Finder";
+			};
+			name = Debug;
+		};
+		34B3E798204232A30040427D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X39L322ZSL;
+				INFOPLIST_FILE = "Full Screen Camera View FinderUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mattrempel.Full-Screen-Camera-View-FinderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Full Screen Camera View Finder";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		34B3E763204232A20040427D /* Build configuration list for PBXProject "Full Screen Camera View Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B3E78E204232A30040427D /* Debug */,
+				34B3E78F204232A30040427D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34B3E790204232A30040427D /* Build configuration list for PBXNativeTarget "Full Screen Camera View Finder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B3E791204232A30040427D /* Debug */,
+				34B3E792204232A30040427D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34B3E793204232A30040427D /* Build configuration list for PBXNativeTarget "Full Screen Camera View FinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B3E794204232A30040427D /* Debug */,
+				34B3E795204232A30040427D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		34B3E796204232A30040427D /* Build configuration list for PBXNativeTarget "Full Screen Camera View FinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34B3E797204232A30040427D /* Debug */,
+				34B3E798204232A30040427D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 34B3E760204232A20040427D /* Project object */;
+}
